@@ -1,4 +1,4 @@
-# Layout-1(HTML code)
+# Layout-1
 
 ## Part 1
 
