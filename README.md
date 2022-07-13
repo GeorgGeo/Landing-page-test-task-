@@ -13,6 +13,7 @@ Some **text** _italic_
 > - Вёрстка HTML/CSS (включительно _HTML5/CSS3_)
 > - Адаптивность, annimation CSS
 > - jQuery
+> - Фреймворк **Bootstrap**
 
 > - [x] Вёрстка на css
 > - [x] Адпаптивная вёрстка (@media)
