@@ -6,4 +6,4 @@ Some **text** _italic_
 
 ## Images
 
-![Paint image]
+![Paint image]()
