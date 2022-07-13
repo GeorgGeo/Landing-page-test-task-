@@ -5,12 +5,15 @@
 Some **text** _italic_
 
 > some text
+---
+## Part 2
+
 > - [x] Вёрстка на css
-- [x] Адпаптивная вёрстка (@media)
-- [x] Annimation CSS
-- [x] Library AOS
-- [x] jQuery
-- [x] плагин - Slick slider
+> - [x] Адпаптивная вёрстка (@media)
+> - [x] Annimation CSS
+> - [x] Library AOS
+> - [x] jQuery
+> - [x] плагин - Slick slider
 ---
 ## Code
 ```js
