@@ -19,7 +19,7 @@
 >    - [x] Popper(tooltip)
 >    - [x] Form Styler
 >    - [x] jQuery.selectric
->    - [x] MyScript(script для tabs => см. ниже)
+>    - [x] MyScript (script для tabs => см. ниже)
 ---
 ## MyScript (Code)
 ```js
