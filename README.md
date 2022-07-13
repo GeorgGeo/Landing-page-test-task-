@@ -11,6 +11,8 @@ Some **text** _italic_
 
 > - Работа с графическим редактором Photoshop
 > - Вёрстка HTML/CSS (включительно _HTML5/CSS3_)
+> - Адаптивность, annimation CSS
+> - jQuery
 
 > - [x] Вёрстка на css
 > - [x] Адпаптивная вёрстка (@media)
@@ -28,8 +30,7 @@ Some **text** _italic_
 const a = 1;
 
 ```
-## Images
-
+## Макет
 
 <br>
 <img height="500" width="500" src="https://github.com/GeorgGeo/Layout-1/blob/master/web_coder_test.png">
