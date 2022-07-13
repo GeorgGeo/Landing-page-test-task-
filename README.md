@@ -12,8 +12,10 @@ Some **text** _italic_
 > - Работа с графическим редактором Photoshop
 > - Вёрстка HTML/CSS (включительно _HTML5/CSS3_)
 > - Адаптивность, annimation CSS
+> - JavaScript
 > - jQuery
 > - Фреймворк **Bootstrap**
+> - **Плагины** (_применены_ _при_ _вёрстке)
 
 > - [x] Вёрстка на css
 > - [x] Адпаптивная вёрстка (@media)
