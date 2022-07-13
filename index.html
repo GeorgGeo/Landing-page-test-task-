@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link href="css/jquery.formstyler.css" rel="stylesheet" />
+    <link href="css/jquery.formstyler.theme.css" rel="stylesheet" />
+    <!--  -->
+    <link rel="stylesheet" href="css/ion.tabs.css" />
+    <!--  -->
+    <link rel="stylesheet" href="css/nouislider.min.css" />
+    <!-- Circle-->
+    <link rel="stylesheet" href="css/progresscircle.css" />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Web Coder</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header-nav">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="logo">
+                <div class="logo-text left">Web</div>
+                <div class="logo-icon"></div>
+                <div class="logo-text right">Coder</div>
+              </div>
+            </div>
+            <div class="test d-flex justify-content-center">
+              <span class="logo-text__test">Test Task</span>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="wrapper">
+          <div class="container container-color">
+            <div class="row">
+              <div class="col-md-6 padding-right-left">
+                <div class="carousel">
+                  <div class="carousel-slide">
+                    <img src="images/slide_1_03.png" alt="Slide" />
+                  </div>
+                  <div class="carousel-slide">
+                    <img src="images/slide_2_03.png" alt="Slide" />
+                  </div>
+                  <div class="carousel-slide">
+                    <img src="images/slide_3_03.png" alt="Slide" />
+                  </div>
+                  <div class="carousel-slide">
+                    <img src="images/slide_4_03.png" alt="Slide" />
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="col-md-6 padding-right-left">
+                <div class="form">
+                  <form
+                    action=""
+                    method=""
+                    id="theform"
+                    class="needs-validation"
+                    novalidate
+                  >
+                    <h1 class="title fw-light">Join us now. It's FREE</h1>
+                    <div class="form-checked d-flex">
+                      <div class="i-am d-flex">
+                        <div class="looking">
+                          <span class="looking-text looking-i">I am</span>
+                          <input
+                            type="text"
+                            class="btn-check btn-woman"
+                            id="btn-check-outlined"
+                            autocomplete="off"
+                          />
+                          <label
+                            class="btn looking-woman"
+                            for="btn-check-outlined"
+                          >
+                            <i
+                              class="fa-solid fa-person-dress person-woman"
+                            ></i>
+                          </label>
+                        </div>
+                        <div class="looking">
+                          <input
+                            type="checkbox"
+                            class="btn-check btn-man"
+                            id="btn-check-outlin"
+                            autocomplete="off"
+                          />
+                          <label class="btn looking-man" for="btn-check-outlin">
+                            <i class="fa-solid fa-person person-man"></i>
+                          </label>
+                        </div>
+                      </div>
+                      <!--  -->
+                      <div class="i-am d-flex ps-2">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <div class="looking ps-2">
+                          <span class="looking-text looking-for">
+                            looking for
+                          </span>
+                          <input
+                            type="checkbox"
+                            class="btn-check btn-woman"
+                            id="btn-check-outlined"
+                            autocomplete="off"
+                          />
+                          <label
+                            class="btn looking-woman"
+                            for="btn-check-outlined"
+                          >
+                            <i
+                              class="fa-solid fa-person-dress person-woman"
+                            ></i>
+                          </label>
+                        </div>
+                        <div class="looking">
+                          <input
+                            type="checkbox"
+                            class="btn-check btn-man"
+                            id="btn-check-outlin"
+                            autocomplete="off"
+                          />
+                          <label class="btn looking-man" for="btn-check-outlin">
+                            <i class="fa-solid fa-person person-man"></i>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- input -->
+                    <div class="inputs">
+                      <!-- Name -->
+                      <div class="col-md position-relative pt-3">
+                        <div class="d-flex">
+                          <label
+                            for="validationTooltip01"
+                            class="form-label looking-text d-flex align-items-center"
+                          >
+                            Name
+                          </label>
+                          <input
+                            type="text"
+                            class="form-control input-width"
+                            id="validationTooltip"
+                            value=""
+                            required
+                          />
+                          <div class="valid-tooltip">
+                            <i class="fa-solid fa-check"></i>
+                            <!-- Looks good! -->
+                          </div>
+                          <div class="invalid-tooltip">
+                            <i class="fa-solid fa-xmark fa-solid__xmark"></i>
+                            Enter your name
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Age -->
+                      <div class="selects">
+                        <div
+                          class="col-md position-relative pt-3 d-flex justify-content-between"
+                        >
+                          <div class="col-md-5 d-flex">
+                            <label
+                              for="validationTooltip04"
+                              class="form-label__city looking-text d-flex align-items-center"
+                            >
+                              Age
+                            </label>
+                            <div class="col">
+                              <select
+                                class=""
+                                id="validationTooltip04"
+                                required
+                              >
+                                <option
+                                  selected
+                                  disabled
+                                  value=""
+                                  class="form-select__number"
+                                >
+                                  12
+                                </option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                              </select>
+                            </div>
+                          </div>
+                          <!-- Month -->
+                          <div class="col-md-3 d-flex">
+                            <div class="col">
+                              <select
+                                class=""
+                                id="validationTooltip04"
+                                required
+                              >
+                                <option
+                                  selected
+                                  disabled
+                                  value=""
+                                  class="form-select__number"
+                                >
+                                  october
+                                </option>
+                                <option value="1">september</option>
+                                <option value="2">november</option>
+                                <option value="3">december</option>
+                              </select>
+                            </div>
+                          </div>
+                          <!-- Year -->
+                          <div class="col-md-2 d-flex inputs-year">
+                            <div class="col">
+                              <select
+                                class=""
+                                id="validationTooltip04"
+                                required
+                              >
+                                <option
+                                  selected
+                                  disabled
+                                  value=""
+                                  class="form-select__number"
+                                >
+                                  1984
+                                </option>
+                                <option value="1">1982</option>
+                                <option value="2">1983</option>
+                                <option value="3">1985</option>
+                              </select>
+                            </div>
+                          </div>
+                          <!--  -->
+                          <input
+                            type="text"
+                            name="age"
+                            class="form-control"
+                            id="validationTooltipCity"
+                            value="some value"
+                            required
+                          />
+                          <div class="valid-tooltip">
+                            <i class="fa-solid fa-check"></i>
+                            <!-- Looks good! -->
+                          </div>
+                          <div class="invalid-tooltip">
+                            Please select a valid age.
+                          </div>
+                        </div>
+                      </div>
+                      <!-- City -->
+                      <div class="col-md position-relative pt-3">
+                        <div class="d-flex">
+                          <label
+                            for="validationTooltip04"
+                            class="form-label__city looking-text d-flex align-items-center"
+                          >
+                            City
+                          </label>
+                          <div class="wrap">
+                            <select
+                              class=""
+                              id="validationTooltipCity"
+                              required
+                            >
+                              <option
+                                selected
+                                disabled
+                                value=""
+                                class="form-select__city"
+                              >
+                                London
+                              </option>
+                              <option value="1">Kharkov</option>
+                              <option value="2">Kyiv</option>
+                              <option value="3">Madrid</option>
+                            </select>
+                            <input
+                              type="text"
+                              name="city"
+                              class="form-control"
+                              id="validationTooltipCity"
+                              value="some value"
+                              required
+                            />
+                            <div class="valid-tooltip">
+                              <i class="fa-solid fa-check"></i>
+                              <!-- Looks good! -->
+                            </div>
+                            <div class="invalid-tooltip">
+                              Please select a valid city.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Checks and radios-->
+                      <div class="checks-radio d-flex pt-3">
+                        <div class="check">
+                          <div class="form-check d-flex align-items-center">
+                            <input
+                              class="form-check-input"
+                              type="checkbox"
+                              value=""
+                              id="defaultCheck1"
+                              checked
+                            />
+                            <label class="form-check-label" for="defaultCheck1">
+                              I'm cool
+                            </label>
+                          </div>
+                          <div class="form-check d-flex align-items-center">
+                            <input
+                              class="form-check-input"
+                              type="checkbox"
+                              value=""
+                              id="defaultCheck2"
+                            />
+                            <label class="form-check-label" for="defaultCheck2">
+                              Life's good
+                            </label>
+                          </div>
+                        </div>
+                        <div class="radio">
+                          <div class="form-check d-flex align-items-center">
+                            <input
+                              class="form-check-input"
+                              type="radio"
+                              name="flexRadioDefault"
+                              id="flexRadioDefault1"
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexRadioDefault1"
+                            >
+                              Tee
+                            </label>
+                          </div>
+                          <div class="form-check d-flex align-items-center">
+                            <input
+                              class="form-check-input"
+                              type="radio"
+                              name="flexRadioDefault"
+                              id="flexRadioDefault2"
+                              checked
+                            />
+                            <label
+                              class="form-check-label"
+                              for="flexRadioDefault2"
+                            >
+                              Beer
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- Button -->
+                      <div class="col-12 pt-3 btn-submit">
+                        <button
+                          class="btn btn-primary btn-form d-flex justify-content-center align-items-center"
+                          type="submit"
+                          data-bs-toggle="tooltip"
+                          data-bs-placement="right"
+                          title="Tooltip on right"
+                          id="Epic"
+                        >
+                          Start Now
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                  <!--  -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /.container-carousel -->
+      </nav>
+      <!-- /.header-nav -->
+    </header>
+    <section class="services">
+      <div class="sections">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="section-text">
+                <h2 class="section-text__title">Code this block</h2>
+                <div class="section-text__author">
+                  <img src="images/circle_03.png" alt="" class="circle" />
+                  <p class="text-author">
+                    This text should be changeable. Lorem ipsum text here.
+                    Offers great opportunities to everyone looking to meet
+                    locals, find romantic dates and make new friends. Our dating
+                    site gives you hours of dating fun, together with seemingly
+                    endless possibilities to meet new single people from your
+                    area, make friends, go on a date and enjoy good company.
+                    With thousands of local personals, will make your life a
+                    whole lot busier with all that dating. This is a great place
+                    to find true friends or devoted partners for long-term
+                    relationships or marriage.
+                  </p>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+            <div class="col-md-6">
+              <div class="users-list">
+                <div class="mini-carousel">
+                  <h2 class="section-text__title">Users List</h2>
+                  <div class="your-class">
+                    <div class="mini-carousel__slide">
+                      <img
+                        src="images/mini_slaid.png"
+                        alt="mini-slide"
+                        class="mini-slide__img"
+                      />
+                      <div class="test-hover">
+                        <h5 class="over-text">SexyGirl</h5>
+                        <div class="icon">
+                          <i class="fa-solid fa-face-smile-wink"></i>
+                          <i class="fa-solid fa-user-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mini-carousel__slide">
+                      <img
+                        src="images/mini_slaid.png"
+                        alt="mini-slide"
+                        class="mini-slide__img"
+                      />
+                      <div class="test-hover">
+                        <h5 class="over-text">SexyGirl</h5>
+                        <div class="icon">
+                          <i class="fa-solid fa-face-smile-wink"></i>
+                          <i class="fa-solid fa-user-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mini-carousel__slide">
+                      <img
+                        src="images/mini_slaid.png"
+                        alt="mini-slide"
+                        class="mini-slide__img"
+                      />
+                      <div class="test-hover">
+                        <h5 class="over-text">SexyGirl</h5>
+                        <div class="icon">
+                          <i class="fa-solid fa-face-smile-wink"></i>
+                          <i class="fa-solid fa-user-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mini-carousel__slide">
+                      <img
+                        src="images/mini_slaid.png"
+                        alt="mini-slide"
+                        class="mini-slide__img"
+                      />
+                      <div class="test-hover">
+                        <h5 class="over-text">SexyGirl</h5>
+                        <div class="icon">
+                          <i class="fa-solid fa-face-smile-wink"></i>
+                          <i class="fa-solid fa-user-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mini-carousel__slide">
+                      <img
+                        src="images/mini_slaid.png"
+                        alt="mini-slide"
+                        class="mini-slide__img"
+                      />
+                      <div class="test-hover">
+                        <h5 class="over-text">SexyGirl</h5>
+                        <div class="icon">
+                          <i class="fa-solid fa-face-smile-wink"></i>
+                          <i class="fa-solid fa-user-plus"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mini-carousel__slide">
+                      <img
+                        src="images/mini_slaid.png"
+                        alt="mini-slide"
+                        class="mini-slide__img"
+                      />
+                    </div>
+                    <!--  -->
+                  </div>
+                </div>
+                <!-- Tabs -->
+                <div class="users-tabs">
+                  <!--Wrapper-->
+                  <div class="tabs">
+                    <div class="tabs__nav d-flex">
+                      <button
+                        class="tabs__nav-btn"
+                        type="button"
+                        data-tab="#tab_1"
+                      >
+                        Users List
+                      </button>
+                      <button
+                        class="tabs__nav-btn active"
+                        type="button"
+                        data-tab="#tab_2"
+                      >
+                        Active list tab | 38
+                      </button>
+                      <!--  -->
+                      <div class="crook">
+                        <div class="top"></div>
+                        <div class="bottom"></div>
+                      </div>
+                    </div>
+                    <div class="tabs__content">
+                      <div class="tabs__item" id="tab_1">
+                        <div class="tabs-circule d-flex justify-content-around">
+                          <div class="circlechart" data-percentage="-37">
+                            -37%
+                          </div>
+                          <div class="circlechart" data-percentage="37">
+                            37%
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="tabs__item active" id="tab_2">
+                        <div class="progress">
+                          <div
+                            class="progress-bar"
+                            role="progressbar"
+                            style="width: 60%;"
+                            aria-valuenow="20"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          >
+                            <p class="progress-bar__percent">20%</p>
+                          </div>
+                        </div>
+                        <!-- Buttons -->
+                        <div class="steps d-flex">
+                          <div class="steps-button">
+                            <button class="steps-number btn">Step 1</button>
+                            <div class="steps-triangle"></div>
+                            <div class="triangle"></div>
+                          </div>
+                          <div class="steps-button">
+                            <button class="steps-number btn">Step 2</button>
+                            <div class="steps-triangle"></div>
+                            <div class="triangle"></div>
+                          </div>
+                          <div class="steps-button">
+                            <button class="steps-number btn">Step 3</button>
+                            <div class="steps-triangle"></div>
+                            <div class="triangle"></div>
+                          </div>
+                          <div class="steps-button">
+                            <button class="steps-number btn">Step 4</button>
+                            <div class="steps-triangle"></div>
+                            <div class="triangle"></div>
+                          </div>
+                          <div class="steps-button">
+                            <button class="steps-number btn">Step 5</button>
+                            <div class="steps-triangle"></div>
+                            <div class="triangle"></div>
+                          </div>
+                        </div>
+                        <!--  -->
+                        <div id="slider"></div>
+                        <!--  -->
+                        <div class="circlechart" data-percentage="37">
+                          37%
+                        </div>
+                        <div class="stars">
+                          <i class="fa-solid fa-star stars-color"></i>
+                          <i class="fa-solid fa-star stars-color"></i>
+                          <i class="fa-solid fa-star stars-nocolor"></i>
+                          <i class="fa-solid fa-star stars-nocolor"></i>
+                          <i class="fa-solid fa-star stars-nocolor"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.services -->
+    <section class="text-content">
+      <div class="section-content">
+        <div class="container">
+          <div class="row">
+            <h1 class="content-headline">How to succeed in online dating</h1>
+            <div class="col-md content-text">
+              <div class="left-content">
+                <p class="left-content__text">
+                  There is no secret to being successful in online dating - you
+                  just need to be yourself. Be active, comment on other members'
+                  profiles, send them mails, chat with them and rate their
+                  profiles. We provide a wide range of features allowing you to
+                  gather as many contacts as you can handle. It is better to
+                  rotate photographs of yourself regularly, update the details
+                  on your profile frequently, use the instant communicator
+                  facility, and log onto the site as much as possible, as well
+                  as at different times, to meet as many members as you can. It
+                  is most important to be honest, positive and patient in all
+                  your site activities.
+                </p>
+                <p class="link-content__text">
+                  <a href="#" class="link-text">
+                    In the "My Account" area visit the section for photos entitled
+                  "My Photos" and select the option "Click to upload photos".
+                  You will the prompted to upload a photo from your computer.
+                  Your 'Primary' photo is visible to everyone and should be a
+                  'normal' photo. 'For friends only' photos are visible only to
+                  those on your friends list.Your 'Primary' photo is visible to
+                  everyone and should be a 'normal' photo. 'For friends only'
+                  photos are visible only to those on your friends list.
+                  </a>
+                </p>
+                <p class="left-content__text">
+                  You can also upload photos to your dating profile from your
+                  Facebook account.
+                </p>
+                <p class="left-content__text">
+                  <span class="content-number">
+                    Access your dating life even when you’re not browsing
+                    <a href="#" class="link-text">Cupid.com</a>!
+                  </span></br>
+                  <span class="content-number">
+                    Search for new matches from your browser easily
+                  </span></br>
+                  <span class="content-number">
+                    Read and write messages & chat with members live; receive
+                    Datecasts, winks and alerts when your are online or have
+                    update their profile info
+                  </span></br>
+                  <span class="content-number">
+                    Read and write messages & chat with members live; receive
+                    Datecasts, winks and alerts when your friends
+                  </span>
+                </p>
+                <blockquote>
+                  <p class="left-content__quote">
+                  In the "My Account" area visit the section for photos entitled
+                  "My Photos" and select the option "Click to upload photos".
+                  You will then be prompted to upload a photo from your
+                  computer. Your 'Primary' photo is visible to everyone and
+                  should be a 'normal' photo. 'For friends only' photos are
+                  visible only to those on your friends list.
+                </p>
+                </blockquote>
+                <p class="link-arrow d-flex"><a href="#" class="link-text link-text__arrow">Click here to view more</a></p>
+              </div>
+              <!--  -->
+            </div>
+            <!-- <div class="col-md-4"></div> -->
+            <!-- <div class="col-md-4"></div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2">
+              <div class="logotype">
+                <div class="footer-logo d-flex align-items-center">
+                <div class="footer-logo__text footer-logo__right">Web</div>
+                <div id ="logo" class="footer-logo__icon"></div>
+                <div class="footer-logo__text footer-logo__left">Coder</div>
+              </div>
+              </div>
+            </div>
+            <div class="offset-md-7 col-md-3">
+              <div class="footer-headline d-flex">
+                <div class="footer-headline__abb">
+                  <p class="footer-abb">DV</p>
+                </div>
+                <div class="footer-headline__text ms-auto">
+                  <p class="footer-headline__web">Web CoderTest Task</p>
+                </div>
+              </div>
+              <div class="footer-year d-flex">
+                <span class="footer-years__number ms-auto">2013</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Activation -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/slick.min.js"></script>
+
+    <script src="js/jquery.formstyler.min.js"></script>
+
+    <!-- Validation form -->
+    <script>
+      // Self-executing function
+      ;(function () {
+        'use strict'
+        window.addEventListener(
+          'load',
+          function () {
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.getElementsByClassName('needs-validation')
+
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function (
+              form,
+            ) {
+              form.addEventListener(
+                'submit',
+                function (event) {
+                  if (form.checkValidity() === false) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                  }
+                  form.classList.add('was-validated')
+                },
+                false,
+              )
+            })
+          },
+          false,
+        )
+        $('input').click(function () {
+          $('.invalid-tooltip').hide()
+        })
+      })()
+    </script>
+    <!-- Plugin for Select - 'formstyler' -->
+    <script>
+      ;(function ($) {
+        $(function () {
+          $('select').styler()
+        })
+      })(jQuery)
+    </script>
+    <!-- miniSlide -->
+    <script>
+      $(document).ready(function () {
+        $('.your-class').slick({
+          infinite: true,
+          slidesToShow: 5,
+          slidesToScroll: 1,
+          arrows: true,
+          variableWidth: true,
+          prevArrow: '<i class="fa-solid fa-arrow-left"></i>',
+          nextArrow: '<i class="fa-solid fa-arrow-right"></i>',
+        })
+      })
+    </script>
+    <!-- Tabs -->
+    <!-- MY SCRIPT -->
+    <script>
+      const tabsBtn = document.querySelectorAll('.tabs__nav-btn')
+      const tabsItems = document.querySelectorAll('.tabs__item')
+
+      tabsBtn.forEach((item) => {
+        item.addEventListener('click', (e) => {
+          // save current button
+          let currentBtn = item
+          // get attribute by click on button
+          let tabId = currentBtn.getAttribute('data-tab')
+          // select el on id
+          let currentTab = document.querySelector(tabId)
+
+          if (!currentBtn.classList.contains('active')) {
+            // delete class active (after click pass on all buttons)
+            tabsBtn.forEach((item) => {
+              item.classList.remove('active')
+            })
+            //
+            tabsItems.forEach((item) => {
+              item.classList.remove('active')
+            })
+
+            currentBtn.classList.add('active')
+            currentTab.classList.add('active')
+          }
+        })
+      })
+    </script>
+    <!-- noUiSlider -->
+    <script src="js/nouislider.min.js"></script>
+    <script>
+      var slider = document.getElementById('slider')
+
+      noUiSlider.create(slider, {
+        start: [20, 80],
+        connect: true,
+        tooltips: true,
+        range: {
+          min: 0,
+          max: 100,
+        },
+      })
+    </script>
+    <!-- Circle -->
+    <script src="js/progresscircle.js"></script>
+    <script>
+      $(function () {
+        $('.circlechart').circledast()
+      })
+    </script>
+    <!--  -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
