@@ -16,19 +16,14 @@ Some **text** _italic_
 > - jQuery
 > - Фреймворк **Bootstrap**
 > - **Плагины** (_применены_ _при_ _вёрстке_)
->    - [x] slickslider
->    - [x] nouislider
-
-> - [x] Вёрстка на css
-> - [x] Адпаптивная вёрстка (@media)
-> - [x] Annimation CSS
-> - [x] Library AOS
-> - [x] jQuery
-> - [x] плагин - Slick slider
-- [x] Annimation CSS
-- [x] Library AOS
-- [x] jQuery
-- [x] плагин - Select(jQuery.selectric)
+>    - [x] Slickslider
+>    - [x] NoUiSlider
+>    - [x] Ion.tabs
+>    - [x] Progresscircle
+>    - [x] Popper(tooltip)
+>    - [x] Form Styler
+>    - [x] jQuery.selectric
+>    - [x] MyScript(см. ниже)
 ---
 ## Code
 ```js
