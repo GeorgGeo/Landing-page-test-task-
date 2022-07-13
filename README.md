@@ -6,4 +6,4 @@ Some **text** _italic_
 
 ## Images
 
-![Paint image](https://github.com/GeorgGeo/Layout-1/blob/master/web_coder_test.png)
+![Paint image](https://github.com/GeorgGeo/Layout-1/blob/master/web_coder_test.png/300/300)
