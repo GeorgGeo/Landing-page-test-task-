@@ -2,10 +2,6 @@
 
 ## Требования
 — Соблюдение современных стандартов и требований, _семантичность_, _адаптивность_, _HTML5/CSS3_, _CSS анимация_
-
-Some **text** _italic_
-
-> some text
 ---
 ## Реализация (с помощью каких инструментов)
 
@@ -23,11 +19,39 @@ Some **text** _italic_
 >    - [x] Popper(tooltip)
 >    - [x] Form Styler
 >    - [x] jQuery.selectric
->    - [x] MyScript(см. ниже)
+>    - [x] MyScript(script для tabs => см. ниже)
 ---
-## Code
+## MyScript (Code)
 ```js
-const a = 1;
+    <script>
+      const tabsBtn = document.querySelectorAll('.tabs__nav-btn')
+      const tabsItems = document.querySelectorAll('.tabs__item')
+
+      tabsBtn.forEach((item) => {
+        item.addEventListener('click', (e) => {
+          // save current button
+          let currentBtn = item
+          // get attribute by click on button
+          let tabId = currentBtn.getAttribute('data-tab')
+          // select el on id
+          let currentTab = document.querySelector(tabId)
+
+          if (!currentBtn.classList.contains('active')) {
+            // delete class active (after click pass on all buttons)
+            tabsBtn.forEach((item) => {
+              item.classList.remove('active')
+            })
+            //
+            tabsItems.forEach((item) => {
+              item.classList.remove('active')
+            })
+
+            currentBtn.classList.add('active')
+            currentTab.classList.add('active')
+          }
+        })
+      })
+    </script>
 
 ```
 ## Макет
