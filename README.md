@@ -6,6 +6,11 @@ Some **text** _italic_
 
 > some text
 ---
+## Code
+'''js
+const a = 1;
+
+'''
 ## Images
 
 
