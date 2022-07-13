@@ -7,7 +7,7 @@
 
 > - Работа с графическим редактором Photoshop
 > - Вёрстка HTML/CSS (включительно _HTML5/CSS3_)
-> - Адаптивность, annimation CSS
+> - Адаптивность, annimation CSS, валидация формы
 > - JavaScript
 > - jQuery
 > - Фреймворк **Bootstrap**
