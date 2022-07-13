@@ -14,6 +14,10 @@ Some **text** _italic_
 > - [x] Library AOS
 > - [x] jQuery
 > - [x] плагин - Slick slider
+- [x] Annimation CSS
+- [x] Library AOS
+- [x] jQuery
+- [x] плагин - Select(jQuery.selectric)
 ---
 ## Code
 ```js
