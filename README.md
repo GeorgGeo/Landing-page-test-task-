@@ -6,7 +6,7 @@
 ## Реализация (с помощью каких инструментов)
 
 > - Работа с графическим редактором Photoshop
-> - Вёрстка HTML/CSS (включительно _HTML5/CSS3_)
+> - Вёрстка HTML/CSS (включительно [<img width="25" src="https://github.com/GeorgGeo/Layout-1/blob/master/web_coder_test.png">]_HTML5/CSS3_)
 > - Адаптивность, annimation CSS, валидация формы
 > - JavaScript
 > - jQuery
